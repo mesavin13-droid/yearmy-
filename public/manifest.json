@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "МОЙ ГОД — Персональные семейные календари",
+  "short_name": "Мой Год",
+  "description": "12 месяцев. 12 историй. Один год твоего ребёнка.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

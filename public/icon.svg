@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#FAF7F2" />
+  <rect x="76" y="86" width="360" height="340" rx="36" fill="#F0E8DC" stroke="#2C2723" stroke-width="8" />
+  <path d="M76 170H436" stroke="#2C2723" stroke-width="8" stroke-linecap="round" />
+  <circle cx="160" cy="128" r="14" fill="#8B4513" />
+  <circle cx="352" cy="128" r="14" fill="#8B4513" />
+  <!-- Heart and 12 badge -->
+  <path d="M256 310 C256 310, 206 264, 206 230 C206 208, 224 196, 244 196 C256 196, 256 206, 256 206 C256 206, 256 196, 268 196 C288 196, 306 208, 306 230 C306 264, 256 310, 256 310 Z" fill="#9E4734" />
+  <text x="256" y="375" text-anchor="middle" font-family="sans-serif" font-weight="700" font-size="38" fill="#2C2723" letter-spacing="4">МОЙ ГОД</text>
+</svg>

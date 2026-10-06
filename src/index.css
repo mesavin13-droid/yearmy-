@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* iOS Safe Area & Mobile utilities */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 16px);
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(160, 140, 120, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(160, 140, 120, 0.4);
+}
+
+/* High Quality Print Styles */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
